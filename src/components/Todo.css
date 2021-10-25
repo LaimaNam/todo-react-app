@@ -1,0 +1,27 @@
+.todo-item-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 10px 5px;
+}
+.todo-item {
+  margin: 0;
+  color: rgb(41, 41, 41);
+  border-bottom: 1px solid rgb(146, 146, 146);
+  width: 100%;
+}
+
+.todo-delete-btn {
+  border: none;
+  background-color: transparent;
+  height: fit-content;
+  padding: 5px 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 1.1em;
+}
+
+.todo-delete-btn:hover {
+  background-color: tomato;
+}
